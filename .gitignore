@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+*.egg
+
+# Env & secrets
+.env
+*.tfvars
+!*.tfvars.example
+
+# Data files (don't commit raw data — use Azure Blob)
+data/raw/
+data/processed/
+data/silver/
+data/gold/
+data/quarantine/
+*.parquet
+*.db
+
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Airflow
+airflow/logs/
+airflow.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+>>>>>>> ddb11f8 (feat: initial commit — real-time retail data platform (Azure free tier))

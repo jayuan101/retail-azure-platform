@@ -1,0 +1,41 @@
+# Core streaming
+kafka-python==2.0.2
+azure-eventhub==5.11.4
+azure-eventhub-checkpointstoreblob==1.1.4
+
+# Azure storage
+azure-storage-blob==12.19.0
+azure-identity==1.15.0
+azure-keyvault-secrets==4.7.0
+
+# Spark / Databricks (local PySpark for dev)
+pyspark==3.5.0
+delta-spark==3.1.0
+
+# Data processing
+pandas==2.1.4
+pyarrow==14.0.2
+fastparquet==2023.10.1
+
+# Validation & quality
+great-expectations==0.18.8
+jsonschema==4.20.0
+cerberus==1.3.5
+
+# Orchestration
+apache-airflow==2.8.0
+apache-airflow-providers-microsoft-azure==8.3.0
+
+# Azure Functions local dev
+azure-functions==1.17.0
+
+# IaC / monitoring
+azure-mgmt-monitor==6.0.2
+azure-mgmt-storage==21.1.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+retry==0.9.2
+structlog==23.3.0
+faker==22.0.0
