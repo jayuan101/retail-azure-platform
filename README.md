@@ -1,6 +1,5 @@
-<<<<<<< HEAD
+
 # retail-azure-platform
-=======
 # Real-Time Retail Data Platform — Azure Free Tier
 
 A production-grade retail data platform built with Azure free-tier and open-source tools.
