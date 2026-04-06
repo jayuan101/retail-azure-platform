@@ -90,4 +90,3 @@ airflow standalone
 - Docker Desktop (for local Kafka)
 - Azure free account (storage + functions)
 - Databricks Community Edition account (free)
->>>>>>> ddb11f8 (feat: initial commit — real-time retail data platform (Azure free tier))
